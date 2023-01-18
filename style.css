@@ -188,7 +188,7 @@ article{
     }
 
     .responsive-video{
-        display: block;
+        display: contents;
         position:relative;
         margin-top: 55%;
         margin-left: 10%;
