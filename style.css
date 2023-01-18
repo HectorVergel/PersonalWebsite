@@ -164,6 +164,9 @@ article{
     margin-left: 45%;
 }
 
+.responsive-video{
+    display: none;
+}
 
 /*------------------- css for small screens ------------------- */
 
@@ -180,7 +183,18 @@ article{
 
     .right-half{
        
-        display:none;
+       display: none;
+
+    }
+
+    .responsive-video{
+        display: block;
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 10%;
+        width: 80%;
+
+
     }
     
    .about{
