@@ -94,7 +94,7 @@ nav ul li a:hover::after{
 .video-l{
     position: absolute;
     margin-left: 55%;
-    margin-top: 8%;
+    margin-top: 0%;
 }
 
 .game-images{
@@ -119,4 +119,43 @@ nav ul li a:hover::after{
 }
 
 
+/*------------------- css for small screens ------------------- */
 
+@media only screen and (max-width: 600px){
+
+
+    .logo-l{
+        
+        position: absolute;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .about-game{
+        margin-top: 30%;
+    }
+
+    .video-l{
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        margin-top: 85%;
+        margin-left: 10%;
+    }
+
+    .game-images{
+        position: absolute;
+        margin-top: 170%;
+    }
+
+    .img2{
+        width: 100%;
+    }
+
+    .download-link{
+        position: absolute;
+        margin-top: 350%;
+    }
+
+
+}

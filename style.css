@@ -70,6 +70,7 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
+
 article{
     position: absolute;
     top: 50%;
@@ -164,6 +165,71 @@ article{
 }
 
 
+/*------------------- css for small screens ------------------- */
+
+@media only screen and (max-width: 600px){
+
+
+    article{
+       
+        position: absolute;
+        width: 100%;
+        padding: 20px;  
+
+    }
+
+    .right-half{
+       
+        display:none;
+    }
+    
+   .about{
+        font-size: 12px;
+        margin-top:110px;
+        margin-left: 170px;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+   }
+
+   .left-half h1{
+        font-size: 20px;
+        margin-top:20px;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+   }
+
+   .left-half p{
+        margin-top: 9%;
+        font-size: 15px;
+   }
+
+   .work{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        margin-left: 8%;
+        margin-top: 2%;
+    }
+
+    .showroom{
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    .title-social{
+        margin-top: 5px;
+        margin-left: 27%;
+    }
+
+    .tw{
+        margin-left: 35%;
+    }
+
+
+
+}
 
 
 
