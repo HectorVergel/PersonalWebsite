@@ -2,93 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>hectorCoding Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="header">
-        <div class="container"> 
-            <nav>
-                <img src="Images/LogoC.png" class="logo">   
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#project">Projects</a></li>
-                   
+        <div class = "container">
+            <nav>  
+
+                <img src="Images/LogoC.png" class="logo">
+                <ul>  
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
             </nav>
-           
-            <div class="left-half">
-            <article>   
-                <p>Game Programmer</p>
-                <h1>Hi, I'm <b class="b_color">Héctor</b> Vergel</h1>
-                
-            </article>
-            <article class="about">
-                <p>I'm a Video Game Design
-                    and Production student at UPF-Tecnocampus
-                     <br>who is really into <b class = "b_color">programming</b>. 
-                     I consider myself a very <b class="b_color">self-taught</b> person. 
-                     <br>I'm open to work on any type of projects.</p>
-            </article>
-
-           
-
+        </div>
+        <div class="header-text">
+            <p>Junior Game Programmer</p>
+            <h1>Hi, I'm <span>Héctor</span></h1>
+        </div>
+    </div>
+<!---------about------------>
+    <div id = "about">
+        <div class="container">
+            <div class = "row">
+                <div class = "about-col-1">
+                    <p>
+                        As a person highly interested in programming, the field of game programming has become <br> a passion for me. I
+                        enjoy learning new things every day and being updated. Because of that, I like to participate in any kind of projects
+                        related to game development and also I have fun creating my own games.<br>
+                        My strongest transversal skills would be team-working and problem-solving. I like to be involved in team projects
+                        and keep improving these skills.
+                    </p>
+                    <nav>
+                        <ul>  
+                            <li><a href="https://twitter.com/hectorCoding"><img src="Images/brand-x.svg" alt=""></a></li>
+                            <li><a href="https://www.linkedin.com/in/hectorvergel/"><img src="Images/brand-linkedin.svg" alt=""></a></li>
+                            <li><a href="https://github.com/HectorVergel"><img src="Images/brand-github.svg" alt=""></a></li>
+                            <li><a href="Files/Hector_Vergel_Resume.pdf" download=""><span>Resume</span></a></li>
+                                 
+                        </ul>
+                    </nav>
+                </div>
+                <div class = "about-col-2">
+                    <video autoplay muted loop>
+                        <source src="Videos/Clip1LWIM_AdobeExpress.mp4" type="video/mp4" >
+                        Your browser does not support the video tag.
+                      </video>
+                </div>
             </div>
-            
-            <div class="right-half">
-                <article>
-                    <video width="512" height="432"autoplay loop muted>
-                        <source src="Videos/Clip1LWIM_AdobeExpress.mp4" type="video/mp4">
-                        <source src="Videos/Clip1LWIM_AdobeExpress.ogg" type="video/ogg">
+        </div>
+    </div>
+
+    <!-----------projects------------->
+    <div id = "projects">
+        <h1>Projects</h1>
+        <div class = "personal-projects">
+                <div class = "card">
+                    <div class = "card-video">
+                        <video width="495" autoplay muted loop>
+                            <source src="Videos/riddle-manor-trailer.mp4" type="video/mp4" >
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h2><a href="https://gerard-coquard.itch.io/riddle-manor">Riddle Manor </a><span>(2023)</span></h2>
+                    
+                    <p>	&#127942; <i>University award for best game for the industry</i></p>
+                    <p>	&#127942; <i>University award for best art</i></p>
+                    <p class="description"> Riddle   Manor is a 3D puzzle and platform game made by a team of seven students. 
+                    I worked in the game as a generalist programmer. Focused on gameplay and systems like localization and game save.
+                    </p>
+                    
+                </div>
+           <div class = "card">
+                <div class = "card-video">
+                    <video width="495" autoplay muted loop>
+                        <source src="Videos/Look What I've Made _ Trailer.mp4" type="video/mp4" >
                         Your browser does not support the video tag.
                     </video>
-                </article>
             </div>
-            
-        </div> 
-        <video width="512" height="432"autoplay loop muted class="responsive-video">
-            <source src="Videos/Clip1LWIM_AdobeExpress.mp4" type="video/mp4">
-            <source src="Videos/Clip1LWIM_AdobeExpress.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <a name="project"></a><div id="projects">
-        <div class="showroom">
-            <h1>Projects</h1>            
+            <h2><a href="https://hectorcoding.itch.io/look-what-ive-made">Look What I've Made </a><span>(2022)</span></h2>
+            <p>	&#127942; <i>University award for best game</i></p>
+            <p class="description">Look What I've Made is a Metroidvania with some RPG mechanics made by a team of five
+                students. I worked as a gameplay programmer implementing game mechanics and AI.
+            </p>
+           
+       </div>
+       <div class = "card">
+            <div class = "card-video">
+                <video width="495" muted loop autoplay>
+                    <source src="Videos/untragomas-video.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h2><a href="https://nosinkd.itch.io/un-trago-mas"> Un Trago Más <span>(2022) </span></a></h2>
+            <p></p>
+            <p class="description"> "Un Trago Más" is a simulation game in which you will have to elaborate cocktails to satisfy your customers. It was made in one week for a 
+            Game Jam. I worked as a gameplay programmer implementing the customer behaviour and other features.
+            </p>
+        
         </div>
-        <div class="work-list">
-            <div class="work">
 
-                <a href="project-lwim.html"><img src="Images/lookwhativemade.png"></a>
-                        
-                    
+        <div class = "card">
+            <div class = "card-video">
+                <video width="495" muted loop autoplay>
+                    <source src="Videos/tinytangle-video.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
             </div>
-
-            <div class = "work">
-                <a href="project-utm.html"><img src="Images/untragomas.png"></a>
-                    
-            </div>
+            <h2><a href="https://jan-de-nobel.itch.io/tiny-tangle"> Tiny Tangle <span>(2023) </span></a></h2>
+            <p></p>
+            <p class="description"> Tiny Tangle is a 3D puzzle game made in a few days for the Global Game Jam 2023. I worked as a gameplay programmer
+                implementing puzzle mechanics and camera animations.
+            </p>
+        
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
 
-    </div>    
-
-    <div class="social-media">
-        <p class="title-social">Follow me here!</p>
-        <a href="https://twitter.com/hectorCoding"><img src="Images/tw.png" class="tw"></a>
-        <a href="https://www.linkedin.com/in/hectorvergel/"><img src="Images/linkedin.png" class="li"></a>
-        <br>
-        <br>
+        <div class = "card">
+            <div class = "card-video">
+                <video width="495" muted loop autoplay>
+                    <source src="Videos/theexam-video.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h2><a href="https://gerard-coquard.itch.io/the-exam-xp"> The Exam XP <span>(2021) </span></a></h2>
+            <p>	&#127942; <i>Winner of LoveJam Tecnocampus 2021</i></p>
+            <p class="description"> The Exam XP is a puzzle game made for LoveJam Tecnocampus. It was made in Lua using Love2D. I worked as a gameplay programmer
+                implementing the hidden retro games.
+            </p>
+        
+        </div>
+        </div>
     </div>
-    
-   
-       
-
 </body>
-</html> 
+</html>
