@@ -101,8 +101,58 @@ nav ul li a:hover{
        max-width: 300px;
         
     }
+
+    #about ul li a img{
+        width: 70%;
+    }
+
+    #about ul li span{
+        font-size: 10px;
+    }
+
+    #header .container div label{
+        width: 100%;
+        font-size: 2.3em;
+        text-align: center;
+        line-height: 60px;
+        transition: .5s ease;
+        padding-left: 310px;
+    }
+
+    #header .container div label:hover{
+        color:  rgb(134, 247, 255);
+        
+    }
+
+    #header .container nav ul{
+       position: absolute;
+       top: 80px;
+       left: 290px;
+       width: 0px;
+       overflow: hidden;
+       transition: .5s ease;
+       background-color: #1e1e1e;
+       box-shadow: 2px 5px 5px #727272;
+    }
+
+    #header .container nav ul li a{
+       display: flex;
+       align-items: center;
+       text-transform: capitalize;
+       padding: 10px 0px;
+       text-align: center;
+    }
     
+     
+
+    input[type=checkbox]:checked ~ * #header .container nav ul{
+        width: 100px;
+    }
 }
+input[type=checkbox]{
+    display: none;
+}
+
 .about-col-1{
     padding: 30px 0px;
     flex-basis: 65%;
